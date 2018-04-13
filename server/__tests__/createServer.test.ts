@@ -5,7 +5,7 @@ import { MongoClient } from 'mongodb';
 import createServer from '../createServer';
 import { createTestDatabaseName } from './utils/testUtils';
 
-const api = 'https://wt-launchpad.it.auth0.com/api';
+const api = 'https://launchpad.auth0-extend.com/api/';
 const container = 'launchpad-test';
 const token =
   'eyJhbGciOiJIUzI1NiIsImtpZCI6ImxhdW5jaHBhZC0xIn0.eyJqdGkiOiIzNzY5MjA2YmY3YjM0YTI1ODRkMzlhOTk2MDdjZGJmNSIsImlhdCI6MTQ5OTI1NjczMSwiZHIiOjEsImNhIjpbImZmMTQ3MzQ2Mzc2OTQzZjFhMDdiZDJkMjQ5MmJlM2U5Il0sImRkIjoyLCJ0ZW4iOiJsYXVuY2hwYWQtdGVzdCJ9.U9XxBHTUIvMw4WnDq-S0ACAq6F9z8-XehFqAfMbwD60';
