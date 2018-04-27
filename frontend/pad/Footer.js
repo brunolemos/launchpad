@@ -127,13 +127,14 @@ export default class Footer extends React.Component {
           <a
             href="https://github.com/apollographql/launchpad/"
             className="footer-button"
+            target="_blank"
           >
             <span className="icon-book" />
             Docs
           </a>
           <div className="powered-by">
             <span>Powered by</span>
-            <a href="https://auth0.com/extend/developers">
+            <a href="https://auth0.com/extend/developers" target="_blank">
               <img
                 className="extend-logo"
                 src={extendLogo}
